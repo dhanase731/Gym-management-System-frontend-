@@ -1,0 +1,72 @@
+.billing-background {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(156, 39, 176, 0.6), rgba(171, 71, 188, 0.4)), url("https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80") center/cover fixed;
+}
+
+.payment-methods {
+  padding: 20px 0;
+}
+
+.payment-method-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.payment-method-item:last-child {
+  border-bottom: none;
+}
+
+.payment-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.payment-bar-fill {
+  height: 8px;
+  border-radius: 4px;
+}
+
+.payment-percentage {
+  font-weight: 500;
+}
+
+.revenue-chart {
+  height: 300px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 16px;
+}
+
+.billing-table {
+  overflow-x: auto;
+}
+
+.billing-status {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-paid {
+  background: #E8F5E8;
+  color: #27AE60;
+}
+
+.status-pending {
+  background: #FFF3E0;
+  color: #F39C12;
+}
+
+.status-overdue {
+  background: #FFEBEE;
+  color: #E74C3C;
+}

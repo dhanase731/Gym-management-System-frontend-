@@ -1,0 +1,130 @@
+/* Base Sidebar Styles */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  backdrop-filter: blur(20px);
+  border-right: 3px solid;
+  box-shadow: 4px 0 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+/* Dashboard Theme - Orange Energy */
+.sidebar-dashboard {
+  background: linear-gradient(180deg, rgba(255, 87, 34, 0.95), rgba(255, 152, 0, 0.9));
+  border-right-color: rgba(255, 87, 34, 0.4);
+  box-shadow-color: rgba(255, 87, 34, 0.3);
+}
+
+/* Members Theme - Teal */
+.sidebar-members {
+  background: linear-gradient(180deg, rgba(0, 150, 136, 0.95), rgba(0, 188, 212, 0.9));
+  border-right-color: rgba(0, 150, 136, 0.4);
+  box-shadow-color: rgba(0, 150, 136, 0.3);
+}
+
+/* Trainers Theme - Deep Orange */
+.sidebar-trainers {
+  background: linear-gradient(180deg, rgba(255, 87, 34, 0.95), rgba(255, 111, 97, 0.9));
+  border-right-color: rgba(255, 87, 34, 0.4);
+  box-shadow-color: rgba(255, 87, 34, 0.3);
+}
+
+/* Attendance Theme - Blue */
+.sidebar-attendance {
+  background: linear-gradient(180deg, rgba(33, 150, 243, 0.95), rgba(30, 136, 229, 0.9));
+  border-right-color: rgba(33, 150, 243, 0.4);
+  box-shadow-color: rgba(33, 150, 243, 0.3);
+}
+
+/* Gym Theme - Green */
+.sidebar-gym {
+  background: linear-gradient(180deg, rgba(76, 175, 80, 0.95), rgba(102, 187, 106, 0.9));
+  border-right-color: rgba(76, 175, 80, 0.4);
+  box-shadow-color: rgba(76, 175, 80, 0.3);
+}
+
+/* Billing Theme - Purple */
+.sidebar-billing {
+  background: linear-gradient(180deg, rgba(156, 39, 176, 0.95), rgba(171, 71, 188, 0.9));
+  border-right-color: rgba(156, 39, 176, 0.4);
+  box-shadow-color: rgba(156, 39, 176, 0.3);
+}
+
+/* Settings Theme - Grey */
+.sidebar-settings {
+  background: linear-gradient(180deg, rgba(96, 125, 139, 0.95), rgba(120, 144, 156, 0.9));
+  border-right-color: rgba(96, 125, 139, 0.4);
+  box-shadow-color: rgba(96, 125, 139, 0.3);
+}
+
+.logo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-menu {
+  flex: 1;
+  padding: 20px 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 20px;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+  margin: 2px 8px;
+  border-radius: 0 25px 25px 0;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-left-color: rgba(255, 255, 255, 0.8);
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item.active {
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  border-left-color: white;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: translateX(8px);
+}
+
+.sidebar-footer {
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 20px 0;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.logout {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+}
+
+.logout:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-left-color: rgba(255, 200, 200, 0.8) !important;
+}

@@ -1,0 +1,64 @@
+.trainers-background {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(255, 87, 34, 0.6), rgba(255, 152, 0, 0.4)), url("https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80") center/cover fixed;
+}
+
+.trainer-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #FF6B35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.trainer-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.trainer-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.trainer-id {
+  font-size: 12px;
+  color: #666;
+}
+
+.rating-display {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star-icon {
+  color: #FFD700;
+}
+
+.rating-value {
+  font-weight: 500;
+}
+
+.specialization-filters {
+  display: flex;
+  gap: 12px;
+}
+
+.filter-input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.filter-select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}

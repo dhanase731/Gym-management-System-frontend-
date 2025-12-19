@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "dhanaseelan",
+      "password": "123456",
+      "email": "dhanaseelan@example.com",
+      "role": "user"
+    }
+  ],
+
+  "profile": [
+    {
+      "userId": 2,
+      "name": "Dhanaseelan M",
+      "age": 21,
+      "email": "dhanaseelan@example.com",
+      "mobile": "9876543210",
+      "address": "Chennai, India",
+      "joinedDate": "2024-02-01"
+    }
+  ],
+
+  "dashboard": {
+    "stats": {
+      "totalUsers": 120,
+      "activeUsers": 87,
+      "totalProducts": 45,
+      "pendingTasks": 6
+    }
+  },
+
+  "products": [
+    {
+      "id": 101,
+      "name": "Laptop Lenovo",
+      "price": 55000,
+      "category": "Electronics",
+      "stock": 12
+    },
+    {
+      "id": 102,
+      "name": "Wireless Mouse",
+      "price": 499,
+      "category": "Accessories",
+      "stock": 28
+    },
+    {
+      "id": 103,
+      "name": "Headphones",
+      "price": 1299,
+      "category": "Electronics",
+      "stock": 17
+    }
+  ],
+
+  "notifications": [
+    {
+      "id": 1,
+      "message": "Welcome to the dashboard!",
+      "type": "info",
+      "date": "2025-01-10"
+    },
+    {
+      "id": 2,
+      "message": "Product stock running low.",
+      "type": "warning",
+      "date": "2025-01-11"
+    }
+  ],
+
+  "messages": [
+    {
+      "id": 1,
+      "from": "admin",
+      "to": "dhanaseelan",
+      "message": "Your profile has been updated.",
+      "date": "2025-01-15"
+    },
+    {
+      "id": 2,
+      "from": "dhanaseelan",
+      "to": "admin",
+      "message": "Thank you!",
+      "date": "2025-01-16"
+    }
+  ]
+}
+      
